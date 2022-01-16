@@ -331,11 +331,119 @@ public class Practice1 {
 //			System.out.print(i % 10);
 //		}
 		
-		for( int i = 1; i <= 5; i++) {
-			for (int j = 1; j <= i; j++) {
-				System.out.print("*");
+//		for (int i = 1; i <= 10; i++) {
+//			for (int j = 1; j <= i; j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+		
+//		int i = 1;
+//		while (i <= 5) {
+//			System.out.println("Hello");
+//			i += 1;
+//		}
+		
+//		int sum = 0;
+//		int count = 1000; 
+//		
+//		for (int i = 1; i <= count; i++) {
+//			sum += i;
+//			if (sum > 100) {
+//				break;
+//			}
+//			System.out.println(sum);
+//		}
+		
+//		int strike = 0, ball = 0;
+		
+//		while (strike < 3 && ball < 4) {
+//			System.out.println("ストライク=1 or ボール=2 or ファウル=3 ？");
+//			int judge = 1;
+//			if (judge == 1) {
+//				strike++;
+//			} else if (judge == 2) {
+//				ball++;
+//			} else if (judge == 3 && strike < 2) {
+//				strike++;
+//			}
+//		}
+//		System.out.println(ball + "ボール" + strike + "ストライク");
+		
+//		int count = 1;
+//		int result = 0;
+//		
+//		while (count <= 100) {
+//			result += count;
+//			count++;
+//		}
+//		System.out.println("合計は" + result + "です");
+		
+//		int count = 100;
+//		
+//		for (int i = 2; i < count; i *= 2) {
+//			System.out.println(i);
+//		}
+		
+//		int count = 100;
+//		
+//		for (int i = 100; i <= count; i /= 2) {
+//			if (i <= 0) {
+//				break;
+//			}
+//			System.out.print(i + " ");
+//		}
+
+//		for (int i = 10000000; i >= 1; i /= 10) {
+//			System.out.print(i + " ");
+//		}
+		
+		int max = 5;
+		String star = "*";
+		
+		for (int i = 0; i < max; i++) {
+			for (int j = 0; j < max-i; j++) {
+				System.out.print(" ");
 			}
-			System.out.println();
+			for (int k = 0; k < (i+1)*2-1; k++) {
+				System.out.print(star);
+			}
+			System.out.println("\n");
 		}
+//		int max = 10;
+//		String star = "*";
+//		
+//		for (int i = 0; i < max; i++) {
+//			for (int j = 0; j <= i; j++) {
+//				System.out.print(star);
+//			}
+//			System.out.println("\n");
+//		}
+		
+//		int max = 5;
+//		String star = "*";
+//		
+//		for (int i = 0; i < max; i++) {
+//			for (int j = 0; j < max-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k <= i; k++) {
+//				System.out.print(star);
+//			}
+//			System.out.println("\n");
+//		}
+		
+//		int max = 5;
+//		String star = "*";
+//		
+//		for (int i = 0; i < max; i++) {
+//			for (int j = 0; j < i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k <= max*2-(i*2)-2; k++) {
+//				System.out.print(star);
+//			}
+//			System.out.println("\n");
+//		}
 	}
 }
