@@ -34,6 +34,7 @@ public class Practice1 {
 //		break;
 //		}
 		
+		
 //		int firstTest = 1;
 //		int secondTest = 90;
 //		String goodResult = "合格";
@@ -48,6 +49,7 @@ public class Practice1 {
 //		} else {
 //			System.out.println(badResult);
 //		}
+		
 		
 //		0=日曜、1=月曜、2=火曜、3=水曜、4=木曜、5=金曜、6=土曜
 //		0=午前、1=午後、2=夜間
@@ -87,6 +89,7 @@ public class Practice1 {
 //		System.out.println("0=午前、1=午後、2=夜間");
 //		System.out.println("");
 //		
+		
 //		int week = 0;
 //		int day = 3;
 //		
@@ -102,11 +105,13 @@ public class Practice1 {
 //			bopen = false;
 //		}
 //		
+		
 //		if (bopen) {
 //			System.out.println("診療しています。");
 //		} else {
 //			System.out.println("休診です。");
 //		}
+		
 		
 //		int x = 5;
 //		int y = 3;
@@ -126,6 +131,7 @@ public class Practice1 {
 //		if (!(x < 0 && y < 0)) {
 //			System.out.println("xもyも負の数である、ではない。");
 //		}
+		
 		
 //		System.out.println("月を選択してください。");
 //		System.out.println("0 = 1月, 1 = 2月, 2 = 3月, 3 = 4月, 4 = 5月, 5 = 6月, 6 = 7月,");
@@ -172,13 +178,15 @@ public class Practice1 {
 //			break;
 //		}
 		
+		
 //		System.out.println("お好きな寿司ネタはなんですか？");
 //		System.out.println("0=まぐろ、1=えび、2=サーモン、3=はまち、4=たい、5=いか");
-//		
+		
 //		int fish = 2;
 //		
 //		System.out.println("あなたの今日の運勢は、、");
 //		
+		
 //		switch (fish) {
 //		case 0:
 //			System.out.print("大凶です。");
@@ -204,6 +212,7 @@ public class Practice1 {
 //		System.out.println("月を入力してください。");
 //		System.out.println("");
 //		
+		
 //		int month = 2;
 //		
 //		switch (month) {
@@ -230,9 +239,11 @@ public class Practice1 {
 //			break;
 //		}
 		
+		
 //		for (int i = 0; i < 10; i++ ) {
 //			System.out.println("SPAM");
 //		}
+		
 		
 //		for (int i = 3; i <= 27; i++) {
 //			if (i % 3 == 0) {
@@ -240,9 +251,11 @@ public class Practice1 {
 //			}
 //		}
 		
+		
 //		for (int i = 1; i <= 9; i++) {
 //			System.out.println(3 * i);
 //		}
+		
 		
 //		int x = 1;
 //		
@@ -251,6 +264,7 @@ public class Practice1 {
 //			System.out.println("2の" + i + "乗=" + x);
 //		}
 		
+		
 //		int x = 1;
 //		
 //		for (int i = 1; i <= 7; i++) {
@@ -258,11 +272,13 @@ public class Practice1 {
 //		}
 //		System.out.println("7の階乗=" + x);
 		
+		
 //		int sum = 0;
 //		for (int i = 0; i < 10; i++) {
 //			sum += i;
 //		}
 //		System.out.println(sum / 10);
+		
 		
 //		int wins = 0;
 //		int result = 1;
@@ -273,6 +289,7 @@ public class Practice1 {
 //			}
 //		}
 //		System.out.println("勝ち" + wins + "回、負け" + (10 - wins) + "回");
+		
 		
 		
 //		int giants = 2;
@@ -293,6 +310,7 @@ public class Practice1 {
 //			System.out.println("引き分け！");
 //		}
 		
+		
 //		int max_value = 0;
 //		
 //		for (int i = 0; i < 10; i++) {
@@ -301,6 +319,7 @@ public class Practice1 {
 //			}
 //		}
 //		System.out.println("最大値=" + max_value);
+		
 		
 //		int max_value =0, min_value = 0;
 //		for (int i = 0; i < 10; i++) {
@@ -319,11 +338,13 @@ public class Practice1 {
 //		}
 //		System.out.println("最大値=" + max_value + " 最小値=" + min_value);
 		
+		
 //		int count = 50;
 //		
 //		for (int i = 0; i < count; i++) {
 //			System.out.print("‘*’");
 //		}
+		
 		
 //		int count = 15;
 //		
@@ -338,11 +359,13 @@ public class Practice1 {
 //			System.out.println();
 //		}
 		
+		
 //		int i = 1;
 //		while (i <= 5) {
 //			System.out.println("Hello");
 //			i += 1;
 //		}
+		
 		
 //		int sum = 0;
 //		int count = 1000; 
@@ -354,6 +377,7 @@ public class Practice1 {
 //			}
 //			System.out.println(sum);
 //		}
+		
 		
 //		int strike = 0, ball = 0;
 		
@@ -370,6 +394,7 @@ public class Practice1 {
 //		}
 //		System.out.println(ball + "ボール" + strike + "ストライク");
 		
+		
 //		int count = 1;
 //		int result = 0;
 //		
@@ -385,6 +410,7 @@ public class Practice1 {
 //			System.out.println(i);
 //		}
 		
+		
 //		int count = 100;
 //		
 //		for (int i = 100; i <= count; i /= 2) {
@@ -398,18 +424,21 @@ public class Practice1 {
 //			System.out.print(i + " ");
 //		}
 		
-		int max = 5;
-		String star = "*";
 		
-		for (int i = 0; i < max; i++) {
-			for (int j = 0; j < max-i; j++) {
-				System.out.print(" ");
-			}
-			for (int k = 0; k < (i+1)*2-1; k++) {
-				System.out.print(star);
-			}
-			System.out.println("\n");
-		}
+//		int max = 5;
+//		String star = "*";
+//		
+//		for (int i = 0; i < max; i++) {
+//			for (int j = 0; j < max-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i+1)*2-1; k++) {
+//				System.out.print(star);
+//			}
+//			System.out.println("\n");
+//		}
+		
+		
 //		int max = 10;
 //		String star = "*";
 //		
@@ -419,6 +448,7 @@ public class Practice1 {
 //			}
 //			System.out.println("\n");
 //		}
+		
 		
 //		int max = 5;
 //		String star = "*";
@@ -433,6 +463,7 @@ public class Practice1 {
 //			System.out.println("\n");
 //		}
 		
+		
 //		int max = 5;
 //		String star = "*";
 //		
@@ -445,5 +476,174 @@ public class Practice1 {
 //			}
 //			System.out.println("\n");
 //		}
+		
+		
+//		int up = 4;
+//		int down = 5;
+//		String star = "*";
+//		
+//		for (int a = 0; a < up; a++) {
+//			for (int b = 0; b < up-a; b++) {
+//				System.out.print(" ");
+//			}
+//			for (int c = 0; c < (a+1)*2-1; c++) {
+//				System.out.print(star);
+//			}
+//			System.out.println("\n");
+//		}
+//		for (int i = 0; i < down; i++) {
+//			for (int j = 0; j < i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (down-i)*2-1; k++) {
+//				System.out.print(star);
+//			}
+//			System.out.println("\n");
+//		}
+		
+		
+//		int max = 5;
+//		int min = 4;
+//		String star = "*";
+//		
+//		for (int i = 0; i < max; i++) {
+//			for (int j = 0; j < i+1; j++) {
+//				System.out.print(star);
+//			}
+//			System.out.println("\n");
+//		}
+//		for (int a = 0; a < min; a++) {
+//			for (int b = 0; b < (min-a); b++) {
+//				System.out.print(star);
+//			}
+//			System.out.println("\n");
+//		}
+		
+		
+//		int lose = 0;
+//		int win = 1;
+//		int losies = 0;
+//		int wins = 0;
+//		
+//		for (int i = 0; i < 10; i++) {
+//			System.out.print("0=負け、1=勝ち 結果は？");
+//			if (i % 2 == 0) {
+//				System.out.println(lose);
+//				losies += 1;
+//			} else {
+//				System.out.println(win);
+//				wins += 1;
+//			}
+//		}
+		
+		
+//		System.out.println("勝ちは" + wins + "、負けは" + losies);
+		
+//		int[] int1 = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+//
+//		for (int i = 0; i < 10; i++) {
+//			System.out.println(int1[i] * 2);
+//		}
+		
+		
+//		int[] int1 = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+//		
+//		for (int i = 9; i >= 0; i--) {
+//			System.out.println(int1[i]);
+//		}
+		
+		
+//		int int1[] = {42, 5, 24, 56, 55, 1, 4, 15, 7, 10};
+//		
+//		for (int i = 0; i < 10; i++) {
+//		}
+//		System.out.print("偶数：");
+//		
+//		for (int n : int1) {
+//			if (n % 2 == 0) {
+//				System.out.print(n + " ");
+//			}
+//		}
+//		System.out.print("\n奇数：");
+//		
+//		for (int n : int1) {
+//			if (n % 2 != 0) {
+//				System.out.print(n + " ");
+//			}
+//		}
+		
+		
+//		int value[] = {10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10};
+//		int sum = 0;
+//		
+//		for (int i = 0; i < 10; i++) {
+//			sum += value[i];
+//			if (sum >= 100) {
+//				break;
+//			}
+//			System.out.println(sum);
+//		}
+		
+		
+//		int max = 5;
+//		String star = "*";
+//		
+//		for (int i = 0; i < max; i++) {
+//			for (int j = 0; j < i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (max-i)*2-1; k++) {
+//				System.out.print(star);
+//			}
+//			System.out.println("\n");
+//		}
+		
+//		int max = 5;
+//		String star = "*";
+//		
+//		for (int i = 0; i < max; i++) {
+//			for (int j = 0; j <= i; j++) {
+//				System.out.print(star);
+//			}
+//			System.out.println("\n");
+//		}
+		
+		
+//		int max = 5;
+//		String star = "*";
+		
+//		for (int i = 0; i < max; i++) {
+//			for (int j = 0; j < max-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k <= i; k++) {
+//				System.out.print(star);
+//			}
+//			System.out.println("\n");
+//		}
+		
+		
+		int up = 5;
+		int down = 4;
+		String star = "*";
+		
+		for (int i = 0; i <= up; i++) {
+			for (int j = 0; j < up-i; j++) {
+				System.out.print(" ");
+			}
+			for (int k = 0; k < (i*2)-1; k++) {
+				System.out.print(star);
+			}
+			System.out.println("\n");
+		}
+		for (int a = 0; a < down; a++) {
+			for (int b = 0; b <= a; b++) {
+				System.out.print(" ");
+			}
+			for (int c = 0; c < (down-a)*2-1; c++) {
+				System.out.print(star);
+			}
+			System.out.println("\n");
+		}
 	}
 }
